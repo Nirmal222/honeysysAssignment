@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: orange;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid orange;
+}
+
+
+#tab {
+    width: 90%;
+    height: 35vh;
+    overflow-y: scroll;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0 1rem;
+
+}
+
+#tab::-webkit-scrollbar {
+    width: 12px;
+}
+
+#tab::-webkit-scrollbar-track {
+    background: orange;
+    border-radius: 15px;
+}
+
+#tab::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid orange;
+}
+
+#cardsSection {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+#card-container {
+    width: 90%;
+    height: 25vh;
+    margin: auto;
+    overflow-y: scroll;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0 1rem;
+}
+#card-container>div{
+    margin-top: 1rem;
+}
+
+#card-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+#card-container::-webkit-scrollbar-track {
+    background: orange;
+    border-radius: 15px;
+}
+
+#card-container::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid orange;
+}
+
+.tableItem>td{
+    padding: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
